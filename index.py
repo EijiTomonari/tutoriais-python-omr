@@ -15,3 +15,11 @@ def capturaImagem():
     cv.imshow("Imagem capturada", frame)  # Mostra a imagem capturada
     cv.waitKey(0)  # Aguarda infinitamente por uma tecla pressionada
     return frame
+
+
+def main():
+    img = capturaImagem()
+
+
+if __name__ == '__main__':
+    main()
